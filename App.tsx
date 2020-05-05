@@ -1,5 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { activateKeepAwake } from 'expo-keep-awake';
+
+activateKeepAwake();
 
 export default function App() {
   return (
